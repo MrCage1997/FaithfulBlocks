@@ -1,6 +1,24 @@
 FaithfulBlocks
-Copyright (c) 2026 FaithfulBlocks
+Copyright (c) 2026 Mr.Cage
 
 All Rights Reserved.
 
-Dieses Projekt und seine Quell- und Ressourcendateien dürfen ohne ausdrückliche Genehmigung des Rechteinhabers nicht weiterveröffentlicht, verkauft, unter einem anderen Namen verbreitet oder in anderen Mod-Projekten weiterverwendet werden.
+This project, including its source code, assets, textures, models, data files,
+documentation, and compiled binaries, is proprietary.
+
+No part of FaithfulBlocks may be copied, modified, redistributed, republished,
+sublicensed, sold, rebranded, or incorporated into another mod, modpack,
+software project, or commercial product without prior written permission from
+the copyright holder.
+
+Permission is granted to download and use official compiled releases of
+FaithfulBlocks for personal gameplay and on Minecraft servers, provided the
+files are obtained from an official distribution source and are not modified
+or redistributed.
+
+This repository is public for transparency, development, issue tracking, and
+collaboration. Public availability of the source code does not grant a license
+to reuse, modify, or redistribute it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
