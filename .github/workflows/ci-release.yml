@@ -1,0 +1,130 @@
+name: FaithfulBlocks CI and Release
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+
+jobs:
+  build:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: gradle
+
+      - name: Make Gradle wrapper executable
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew --no-daemon clean build
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: faithfulblocks-build
+          path: |
+            build/libs/*.jar
+            !build/libs/*-sources.jar
+          if-no-files-found: error
+
+  release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout release tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          fetch-depth: 0
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: gradle
+
+      - name: Validate release tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="$(grep '^version=' gradle.properties | cut -d= -f2-)"
+          TAG="${{ github.event.release.tag_name }}"
+          if [ "$TAG" != "v$VERSION" ]; then
+            echo "Release tag $TAG does not match gradle.properties version $VERSION."
+            exit 1
+          fi
+
+      - name: Build release JAR
+        shell: bash
+        run: |
+          chmod +x ./gradlew
+          ./gradlew --no-daemon clean build
+
+      - name: Publish JAR and update manifest
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          VERSION="$(grep '^version=' gradle.properties | cut -d= -f2-)"
+          MINECRAFT="$(grep '^minecraft_version=' gradle.properties | cut -d= -f2-)"
+          LOADER="$(grep '^loader_version=' gradle.properties | cut -d= -f2-)"
+          FABRIC_API="$(grep '^fabric_api_version=' gradle.properties | cut -d= -f2-)"
+          TAG="${{ github.event.release.tag_name }}"
+          JAR="build/libs/faithfulblocks-$VERSION.jar"
+
+          if [ ! -f "$JAR" ]; then
+            echo "Expected release JAR not found: $JAR"
+            exit 1
+          fi
+
+          SHA256="$(sha256sum "$JAR" | awk '{print $1}')"
+
+          gh release upload "$TAG" "$JAR" --clobber
+
+          cat > /tmp/update.properties <<EOF
+enabled=true
+version=$VERSION
+minecraft=$MINECRAFT
+fabric_loader_min=$LOADER
+fabric_api_min=$FABRIC_API
+download_url=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/faithfulblocks-$VERSION.jar
+sha256=$SHA256
+EOF
+
+          git fetch origin main
+          git checkout main
+          cp /tmp/update.properties update.properties
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add update.properties
+
+          if git diff --cached --quiet; then
+            echo "Update manifest is already current."
+          else
+            git commit -m "Update release manifest for $VERSION"
+            git push origin main
+          fi
