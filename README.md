@@ -75,3 +75,11 @@ v1.6.0-rc6
 automatically builds the release JAR, uploads it to the GitHub Release, calculates its SHA-256 hash, and updates `update.properties`.
 
 See [RELEASING.md](RELEASING.md) for the release procedure.
+
+## License
+
+**All Rights Reserved.**
+
+The source code and project assets are publicly visible, but they may not be copied, modified, redistributed, rebranded, sold, or incorporated into other projects without prior written permission from the copyright holder. Official compiled releases may be used for personal gameplay and on Minecraft servers.
+
+See [LICENSE](LICENSE) for the complete terms.
