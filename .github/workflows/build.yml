@@ -1,0 +1,70 @@
+name: Build FaithfulBlocks
+
+on:
+  push:
+    branches:
+      - main
+      - 'develop/**'
+      - 'feature/**'
+      - 'release/**'
+      - 'import/**'
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: gradle
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew clean build --no-daemon
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FaithfulBlocks-${{ github.sha }}
+          path: |
+            build/libs/*.jar
+          if-no-files-found: error
+
+      - name: Prepare release JAR
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release
+          JAR="$(find build/libs -maxdepth 1 -type f -name 'faithfulblocks-*.jar' ! -name '*-sources.jar' | head -n 1)"
+          if [ -z "$JAR" ]; then
+            echo "No release JAR found."
+            exit 1
+          fi
+          cp "$JAR" release/
+          sha256sum release/*.jar | tee release/SHA256SUMS.txt
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            release/*.jar
+            release/SHA256SUMS.txt
