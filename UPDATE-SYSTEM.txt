@@ -1,0 +1,51 @@
+FaithfulBlocks 1.6.0-rc5 - Update-System
+========================================
+
+Das Update-System ist vorbereitet, benötigt aber einmalig die URL zu einer von dir gehosteten
+Manifest-Datei (z. B. GitHub Raw). Beim ersten Start wird automatisch folgende Datei erzeugt:
+
+  .minecraft/config/faithfulblocks-update.properties
+
+Modi:
+  mode=off
+      Keine Update-Prüfung.
+
+  mode=notify
+      Prüft beim Start, lädt aber nichts automatisch herunter.
+      Verfügbare Updates werden im Minecraft-Log gemeldet.
+
+  mode=auto_download
+      Prüft beim Start, lädt eine kompatible neue JAR per HTTPS herunter, prüft deren SHA-256
+      und ersetzt die alte FaithfulBlocks-JAR erst NACH dem Beenden von Minecraft.
+
+Konfiguration:
+  mode=notify
+  manifest_url=https://raw.githubusercontent.com/MrCage1997/FaithfulBlocks/main/update.properties
+  connect_timeout_seconds=5
+  request_timeout_seconds=15
+
+Format der Update-Manifest-Datei:
+
+  version=1.6.1
+  minecraft=26.3
+  fabric_loader_min=0.19.5
+  fabric_api_min=0.161.0+26.3
+  download_url=https://github.com/MrCage1997/FaithfulBlocks/releases/download/v1.6.1/faithfulblocks-1.6.1.jar
+  sha256=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+
+Sicherheitsregeln:
+- Nur HTTPS-URLs werden akzeptiert.
+- Eine andere Minecraft-Version wird niemals automatisch installiert.
+- Fabric Loader und Fabric API werden gegen die Mindestversionen im Manifest geprüft.
+- Die heruntergeladene JAR wird vor der Installation per SHA-256 geprüft.
+- Bei Netzwerk-/Manifest-/Hash-Fehlern startet Minecraft normal weiter.
+- Die laufende JAR wird nicht während des Spiels überschrieben.
+
+
+GitHub-Integration ab 1.6.0-rc6
+--------------------------------
+Die Manifest-URL ist standardmäßig vorkonfiguriert:
+https://raw.githubusercontent.com/MrCage1997/FaithfulBlocks/main/update.properties
+
+Das Root-Manifest kann mit enabled=false vorübergehend deaktiviert werden.
+Dadurch kann die Datei bereits im Repository liegen, bevor ein Release-Asset veröffentlicht wurde.

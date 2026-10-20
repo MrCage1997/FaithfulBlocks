@@ -1,0 +1,184 @@
+{
+  "variants": {
+    "facing=north,half=bottom,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope"
+    },
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left"
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right"
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left"
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right"
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_top"
+    },
+    "facing=north,half=top,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left_top"
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right_top"
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left_top"
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right_top"
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_top",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_left_top",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_inner_right_top",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_left_top",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "faithfulblocks:block/mangrove_planks_stepped_slope_outer_right_top",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/polished_andesite_arch_right"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/polished_andesite_arch_right",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/polished_andesite_arch_right",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/polished_andesite_arch_right",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,1706 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0c"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0c"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0c"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0c"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0a"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0a"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0a"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0a"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0e"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0e"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0e"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "false",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0e"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0d"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0d"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0d"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "false",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0d"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0b"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0b"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0b"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "false",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0b"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "false"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0f"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_z_0f"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0f"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "negative_connected": "true",
+        "positive_connected": "true",
+        "down_connected": "true",
+        "up_connected": "true"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_connected_x_0f"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_centered_z"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_centered_x"
+      }
+    },
+    {
+      "when": {
+        "facing": "up"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_up"
+      }
+    },
+    {
+      "when": {
+        "facing": "down"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/purpur_block_window_frame_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "clear"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_clear_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "white"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_white_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "orange"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_orange_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "magenta"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_magenta_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "light_blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_blue_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "yellow"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_yellow_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "lime"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_lime_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "pink"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_pink_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_gray_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "light_gray"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_light_gray_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "cyan"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_cyan_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "purple"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_purple_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "blue"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_blue_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "brown"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_brown_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "green"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_green_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "red"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_red_down"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "glazing": "black"
+      },
+      "apply": {
+        "model": "faithfulblocks:block/frame_glass_black_down"
+      }
+    }
+  ]
+}

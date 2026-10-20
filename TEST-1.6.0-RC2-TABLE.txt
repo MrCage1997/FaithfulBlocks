@@ -1,0 +1,10 @@
+FaithfulBlocks 1.6.0-rc2 - Kurztest
+====================================
+
+1. Architektur-Arbeitstisch platzieren und die neue eigene Blocktextur rundherum prüfen.
+2. Einen Vanilla-Materialblock (z.B. Steinziegel) einlegen und wie bisher eine Architekturform herstellen.
+3. Den hergestellten Architekturblock anschließend wieder in den Eingabeslot legen.
+4. Es darf nur die Rückgabeoption erscheinen; als Ergebnis muss der ursprüngliche Vanilla-Block angezeigt werden.
+5. Ergebnis entnehmen: 1 Architekturblock wird verbraucht, 1 Ursprungsblock wird zurückgegeben.
+6. Stichproben: normale Säule, große Säule, Bogen, Sockel, Schrägblock, Fensterrahmen und ein Holzmaterial.
+7. Shift-Klick in den Eingabeslot sowohl mit Vanilla-Material als auch mit einem FaithfulBlocks-Architekturblock prüfen.

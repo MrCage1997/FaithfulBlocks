@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "faithfulblocks:block/architecture_table"
+    }
+  }
+}

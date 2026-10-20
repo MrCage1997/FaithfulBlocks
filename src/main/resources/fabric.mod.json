@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "faithfulblocks",
+  "version": "${version}",
+  "name": "FaithfulBlocks",
+  "description": "Vanilla-friendly architectural building blocks for detailed medieval, historical and monumental construction.",
+  "authors": [
+    "FaithfulBlocks"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.faithfulblocks.FaithfulBlocks"
+    ],
+    "client": [
+      "de.faithfulblocks.client.FaithfulBlocksClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.161.0"
+  },
+  "icon": "assets/faithfulblocks/icon.png"
+}

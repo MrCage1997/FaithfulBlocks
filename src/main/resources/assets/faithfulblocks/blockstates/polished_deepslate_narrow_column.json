@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "axis=x,negative_connected=false,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_x"
+    },
+    "axis=x,negative_connected=false,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_x_pos"
+    },
+    "axis=x,negative_connected=true,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_x_neg"
+    },
+    "axis=x,negative_connected=true,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_x_both"
+    },
+    "axis=y,negative_connected=false,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column"
+    },
+    "axis=y,negative_connected=false,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_pos"
+    },
+    "axis=y,negative_connected=true,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_neg"
+    },
+    "axis=y,negative_connected=true,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_both"
+    },
+    "axis=z,negative_connected=false,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_z"
+    },
+    "axis=z,negative_connected=false,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_z_pos"
+    },
+    "axis=z,negative_connected=true,positive_connected=false": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_z_neg"
+    },
+    "axis=z,negative_connected=true,positive_connected=true": {
+      "model": "faithfulblocks:block/polished_deepslate_narrow_column_z_both"
+    }
+  }
+}

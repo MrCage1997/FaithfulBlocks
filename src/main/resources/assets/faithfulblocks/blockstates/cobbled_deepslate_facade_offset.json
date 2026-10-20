@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/cobbled_deepslate_facade_offset_west"
+    }
+  }
+}

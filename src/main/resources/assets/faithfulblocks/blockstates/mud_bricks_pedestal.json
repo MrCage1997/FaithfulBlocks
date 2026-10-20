@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/mud_bricks_pedestal_west"
+    }
+  }
+}

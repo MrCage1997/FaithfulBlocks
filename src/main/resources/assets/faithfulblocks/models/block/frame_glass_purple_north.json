@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "glass": {
+      "sprite": "minecraft:block/purple_stained_glass",
+      "force_translucent": true
+    },
+    "particle": "minecraft:block/purple_stained_glass"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        13.5
+      ],
+      "to": [
+        14,
+        14,
+        14.5
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

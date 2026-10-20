@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "faithfulblocks:block/architecture_table_bottom",
+    "up": "faithfulblocks:block/architecture_table_top",
+    "north": "faithfulblocks:block/architecture_table_front",
+    "south": "faithfulblocks:block/architecture_table_front",
+    "west": "faithfulblocks:block/architecture_table_front",
+    "east": "faithfulblocks:block/architecture_table_front",
+    "particle": "faithfulblocks:block/architecture_table_front"
+  }
+}

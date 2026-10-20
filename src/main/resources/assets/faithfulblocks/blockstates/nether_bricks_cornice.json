@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/nether_bricks_cornice"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/nether_bricks_cornice_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/nether_bricks_cornice_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/nether_bricks_cornice_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/nether_bricks_cornice_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/nether_bricks_cornice_west"
+    }
+  }
+}

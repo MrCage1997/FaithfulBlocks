@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=north,shape=straight": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal"
+    },
+    "facing=north,shape=inner_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_left"
+    },
+    "facing=north,shape=inner_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_right"
+    },
+    "facing=north,shape=outer_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_left"
+    },
+    "facing=north,shape=outer_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_right"
+    },
+    "facing=east,shape=straight": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,shape=inner_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,shape=inner_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,shape=outer_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,shape=outer_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,shape=straight": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,shape=inner_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,shape=inner_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_right",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,shape=outer_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,shape=outer_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_right",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,shape=straight": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,shape=inner_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,shape=inner_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_inner_right",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,shape=outer_left": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,shape=outer_right": {
+      "model": "faithfulblocks:block/mud_bricks_wall_pedestal_outer_right",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

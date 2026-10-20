@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/red_nether_bricks_large_column_pedestal_west"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/spruce_planks_rounded_corner"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/spruce_planks_rounded_corner",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/spruce_planks_rounded_corner",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/spruce_planks_rounded_corner",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

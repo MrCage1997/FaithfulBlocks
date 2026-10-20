@@ -1,0 +1,12 @@
+FaithfulBlocks 1.6.0-rc5 - kurzer Update-Test
+=============================================
+
+1. Minecraft einmal starten und wieder beenden.
+2. Prüfen, ob .minecraft/config/faithfulblocks-update.properties angelegt wurde.
+3. Ohne manifest_url darf Minecraft normal starten; im latest.log steht nur ein Hinweis, dass noch keine URL konfiguriert ist.
+4. Für einen echten Online-Test später eine gültige HTTPS-Manifest-URL eintragen.
+5. mode=notify: neue Version darf nur gemeldet, nicht heruntergeladen werden.
+6. mode=auto_download: neue kompatible Version wird heruntergeladen und SHA-256 geprüft.
+7. Minecraft schließen; erst danach darf die alte JAR ersetzt werden.
+8. Manifest testweise auf minecraft=26.4 setzen: 26.3 darf dieses Update nicht installieren.
+9. SHA-256 absichtlich verändern: Update muss abgebrochen werden und Minecraft weiterhin normal laufen.

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/stone_bricks_arch_left"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/stone_bricks_arch_left",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/stone_bricks_arch_left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/stone_bricks_arch_left",
+      "y": 270
+    }
+  }
+}

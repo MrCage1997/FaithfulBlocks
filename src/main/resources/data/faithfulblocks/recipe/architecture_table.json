@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "PPP"
+  ],
+  "key": {
+    "S": "minecraft:stone_bricks",
+    "C": "minecraft:stonecutter",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "faithfulblocks:architecture_table",
+    "count": 1
+  }
+}

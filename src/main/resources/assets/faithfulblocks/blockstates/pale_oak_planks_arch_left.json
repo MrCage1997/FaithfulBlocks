@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/pale_oak_planks_arch_left"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/pale_oak_planks_arch_left",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/pale_oak_planks_arch_left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/pale_oak_planks_arch_left",
+      "y": 270
+    }
+  }
+}

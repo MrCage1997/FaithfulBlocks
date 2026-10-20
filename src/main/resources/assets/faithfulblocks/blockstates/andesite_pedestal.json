@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/andesite_pedestal"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/andesite_pedestal_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/andesite_pedestal_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/andesite_pedestal_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/andesite_pedestal_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/andesite_pedestal_west"
+    }
+  }
+}

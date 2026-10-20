@@ -1,0 +1,31 @@
+FaithfulBlocks 1.5.0 - Final QA
+===============================
+
+Manuell im Entwicklungsverlauf bestätigt:
+- Architektur-Regressionsprüfung: OK
+- Survival-Crafting und Materialverbrauch: OK
+- Drops und Werkzeugverhalten: OK
+- Fensterrahmen-Drops leer/belegt: OK
+- Resource-Pack-Kompatibilität: OK
+- Dedicated Server / Multiplayer: OK
+- Persistenz nach Neustart: OK
+- Performance-/Belastungstest: OK
+
+Automatische Final-Prüfung:
+- JSON-Syntax aller Ressourcen
+- 46 Materialregistrierungen
+- registrierte und sichtbare Blockfamilien
+- Blockstates und Modellreferenzen
+- DE/EN-Sprachschlüssel
+- Loot-Self-Drops
+- Minecraft-26.3-Loot-Schema
+- Spitzhacken-/Axt-Tags
+- Architektur-Arbeitstisch-Rezept
+- Formregistrierungen und Button-IDs
+- Final-Version / Mod-Icon / Release-Metadaten
+
+
+1.6.0-rc2 Zusatzprüfung (offline):
+- Rückumwandlungsregistry für alle 46 Materialien / 20 registrierten Architekturblockfamilien
+- eigener Architektur-Arbeitstisch-Textursatz und Modellreferenzen
+- eindeutige Button-ID für Rückumwandlung

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/mangrove_planks_pilaster"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/mangrove_planks_pilaster",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/mangrove_planks_pilaster",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/mangrove_planks_pilaster",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

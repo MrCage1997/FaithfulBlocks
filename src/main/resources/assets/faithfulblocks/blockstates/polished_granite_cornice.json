@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "faithfulblocks:block/polished_granite_cornice"
+    },
+    "facing=down": {
+      "model": "faithfulblocks:block/polished_granite_cornice_down"
+    },
+    "facing=north": {
+      "model": "faithfulblocks:block/polished_granite_cornice_north"
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/polished_granite_cornice_south"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/polished_granite_cornice_east"
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/polished_granite_cornice_west"
+    }
+  }
+}

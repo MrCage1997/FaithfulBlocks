@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "faithfulblocks:block/polished_granite_beveled_corner"
+    },
+    "facing=east": {
+      "model": "faithfulblocks:block/polished_granite_beveled_corner",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "faithfulblocks:block/polished_granite_beveled_corner",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "faithfulblocks:block/polished_granite_beveled_corner",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

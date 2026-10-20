@@ -1,0 +1,111 @@
+FaithfulBlocks 1.6.0 - RC6
+=========================
+
+GitHub-Integration des automatischen Update-Systems.
+
+- Standard-Manifest zeigt jetzt auf MrCage1997/FaithfulBlocks.
+- Leere rc5-Konfigurationen werden automatisch auf die offizielle Manifest-URL migriert.
+- Update-Manifeste unterstützen enabled=false, damit ein Release-Kanal sicher vorbereitet werden kann.
+- Update-Dokumentation und Manifest-Vorlage auf das offizielle Repository angepasst.
+
+FaithfulBlocks 1.6.0 - RC5
+=========================
+
+Update-System
+-------------
+- Asynchrone Update-Prüfung beim Minecraft-Start ergänzt.
+- Modi: aus, nur benachrichtigen oder automatisch herunterladen.
+- Exakte Minecraft-Kompatibilitätsprüfung vor einem Update.
+- Mindestversionen für Fabric Loader und Fabric API werden geprüft.
+- Downloads werden ausschließlich über HTTPS akzeptiert.
+- SHA-256-Prüfung vor der Installation.
+- Automatischer JAR-Austausch erst nach dem Beenden von Minecraft.
+- Netzwerk-/Manifestfehler beeinträchtigen den normalen Spielstart nicht.
+- Update-Quelle wird über config/faithfulblocks-update.properties konfiguriert.
+
+FaithfulBlocks 1.6.0 - RC4
+=========================
+
+Korrektur der Architekten-Tisch-Seitentexturen.
+
+Änderungen
+----------
+- Alle vier vertikalen Seiten des Architektur-Arbeitstischs verwenden jetzt dieselbe Front-Textur.
+- Ober- und Unterseite bleiben unverändert.
+- Keine funktionalen Änderungen.
+
+FaithfulBlocks 1.6.0 - RC3
+=========================
+
+Überarbeitung des Architektur-Arbeitstischs mit neuer x64-Textur.
+
+Änderungen
+----------
+- Architektur-Arbeitstisch komplett auf 64x64-Texturen umgestellt.
+- Oberseite mit Bauplänen, Werkzeugen und Arbeitsfläche neu gestaltet.
+- Vorderseite mit dekorativer Architekten-/Werkbank-Front neu gestaltet.
+- Seiten- und Unterseite optisch an das neue Tischdesign angepasst.
+- Funktionalität und Platzierung des Architektur-Arbeitstischs unverändert belassen.
+
+FaithfulBlocks 1.6.0-rc2 - Architecture Table Polish
+========================================================
+
+Auf Basis der ingame bestätigten Placement-Polish-Version 1.6.0-rc1.
+
+Neu / geändert
+--------------
+- Der Architektur-Arbeitstisch besitzt nun vollständig eigene FaithfulBlocks-Texturen für Oberseite, Front, Seiten und Unterseite.
+- Architekturblöcke können im Architektur-Arbeitstisch wieder in ihren ursprünglichen Vanilla-Materialblock zurückverwandelt werden.
+- Die Rückumwandlung ist 1:1: Ein Architekturblock ergibt genau einen Ursprungsblock.
+- Die Rückumwandlung unterstützt alle aktuellen sichtbaren Architekturformen sowie die registrierten Legacy-Formen (Gesims, alter Bogen links/rechts).
+- Die bewährte Placement-Polish-Logik aus rc1 bleibt unverändert.
+
+FaithfulBlocks 1.6.0-rc1 - Placement Polish
+==========================================
+
+Testversion auf Basis von 1.5.0 Final.
+
+Neu / geändert
+--------------
+- Fensterrahmen werden neu nur noch vertikal gesetzt; Boden-/Dachfenster-Platzierung entfällt.
+- Fensterrahmen sind im Block zentriert und verhalten sich bei der Platzierung pane-artiger.
+- Benachbarte Fensterrahmen übernehmen automatisch dieselbe Fensterebene.
+- Gemeinsame Rahmenkanten werden auf beiden Blöcken schmaler, sodass verbundene Fensterflächen einen gleichmäßigen Mittelsteg statt doppelter Rahmen erhalten.
+- Vertikal übereinander gesetzte Pilaster übernehmen automatisch die bestehende Ausrichtung.
+- Wandabschlüsse übernehmen beim vertikalen Stapeln automatisch ihre bestehende Richtung.
+- Fassaden-/Versatzblöcke übernehmen beim Erweitern einer bestehenden Fläche deren Ausrichtung, statt an der angeklickten Seitenkante wegzudrehen.
+- Bögen, Schrägblöcke, Säulen, Sockel und Eckblöcke behalten ihre bereits bewährte Vanilla-nahe Platzierungslogik unverändert.
+
+Legacy-Kompatibilität
+---------------------
+- Bereits vorhandene Fensterrahmen mit UP/DOWN-Zuständen bleiben renderbar; neu platzieren lassen sich diese Zustände nicht mehr.
+
+FaithfulBlocks 1.5.0 - Final
+============================
+
+Finaler erster Architektur-Release für Minecraft 26.3 / Fabric.
+
+Highlights
+----------
+- 46 unterstützte Vanilla-Baumaterialien.
+- 17 sichtbare Architekturformen im Architektur-Arbeitstisch.
+- Resource-Pack-freundliche Modelle mit direkten Vanilla-Texturreferenzen.
+- Überarbeitete, intuitive Platzierungslogik für Eck-, Säulen-, Bogen- und Schrägformen.
+- Schmale und große Säulen mit flackerfreien senkrechten Anschlüssen.
+- Bogen mit automatischen Innen-/Außenecken und umgedrehter Platzierung.
+- Schräg-/Stufenblock mit treppenartigem Verhalten und automatischen Innen-/Außenecken.
+- Fensterrahmen mit klaren und allen 16 gefärbten Vanilla-Glasscheiben.
+- Erweiterte Materialpalette einschließlich zusätzlicher Tiefenschiefer-, Tuff-, Schwarzstein-, Prismarin-, Quarz-, Purpur- und Endsteinvarianten.
+- Sinnvoll überarbeitetes Rezept für den Architektur-Arbeitstisch.
+
+Release- und Stabilitätskorrekturen
+-----------------------------------
+- Werkzeugtags für kombinierte Bögen korrigiert.
+- Loot-Tabellen auf das Minecraft-26.3-Schema umgestellt.
+- Fensterrahmen droppt nur dann eine Scheibe, wenn tatsächlich eine eingesetzt war.
+- Resource-, Modell-, Loot-, Sprach- und Blockstate-Referenzen vollständig validiert.
+- Legacy-IDs für ältere Architekturformen bleiben registriert, damit bestehende Testwelten möglichst kompatibel bleiben.
+
+Bewusst nicht enthalten
+-----------------------
+Das frühere eigenständige Kirchenfenster-/Buntglas-Motivsystem wurde verworfen. FaithfulBlocks konzentriert sich auf flexible Architekturformen; dekorative Verglasung erfolgt über die Fensterrahmen mit Vanilla-Glasscheiben.
