@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    if: github.event_name != 'release'
+    if: ${{ github.event_name != 'release' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -45,7 +45,7 @@ jobs:
           if-no-files-found: error
 
   release:
-    if: github.event_name == 'release'
+    if: ${{ github.event_name == 'release' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -104,15 +104,15 @@ jobs:
 
           gh release upload "$TAG" "$JAR" --clobber
 
-          cat > /tmp/update.properties <<EOF
-enabled=true
-version=$VERSION
-minecraft=$MINECRAFT
-fabric_loader_min=$LOADER
-fabric_api_min=$FABRIC_API
-download_url=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/faithfulblocks-$VERSION.jar
-sha256=$SHA256
-EOF
+          printf '%s\n' \
+            "enabled=true" \
+            "version=$VERSION" \
+            "minecraft=$MINECRAFT" \
+            "fabric_loader_min=$LOADER" \
+            "fabric_api_min=$FABRIC_API" \
+            "download_url=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/faithfulblocks-$VERSION.jar" \
+            "sha256=$SHA256" \
+            > /tmp/update.properties
 
           git fetch origin main
           git checkout main
