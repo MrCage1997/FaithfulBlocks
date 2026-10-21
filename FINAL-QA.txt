@@ -1,7 +1,11 @@
-FaithfulBlocks 1.5.0 - Final QA
-===============================
+FaithfulBlocks 1.6.0-rc6 - Release QA
+=======================================
 
-Manuell im Entwicklungsverlauf bestätigt:
+Bereits im Entwicklungsverlauf manuell bestätigt
+------------------------------------------------
+Diese Punkte stammen aus den stabilen 1.5.0-/1.6.0-RC-Testständen und bleiben
+als Regression-Basis für 1.6.0 erhalten:
+
 - Architektur-Regressionsprüfung: OK
 - Survival-Crafting und Materialverbrauch: OK
 - Drops und Werkzeugverhalten: OK
@@ -11,21 +15,47 @@ Manuell im Entwicklungsverlauf bestätigt:
 - Persistenz nach Neustart: OK
 - Performance-/Belastungstest: OK
 
-Automatische Final-Prüfung:
-- JSON-Syntax aller Ressourcen
-- 46 Materialregistrierungen
-- registrierte und sichtbare Blockfamilien
-- Blockstates und Modellreferenzen
-- DE/EN-Sprachschlüssel
-- Loot-Self-Drops
-- Minecraft-26.3-Loot-Schema
-- Spitzhacken-/Axt-Tags
-- Architektur-Arbeitstisch-Rezept
-- Formregistrierungen und Button-IDs
-- Final-Version / Mod-Icon / Release-Metadaten
+1.6.0-Funktionsprüfungen
+------------------------
+- Placement-Polish aus rc1 ingame bestätigt.
+- Rückumwandlungsregistry für alle 46 Materialien / 20 registrierten
+  Architekturblockfamilien geprüft.
+- Eigener Architektur-Arbeitstisch-Textursatz und Modellreferenzen geprüft.
+- Eindeutige Button-ID für die Rückumwandlung geprüft.
+- Update-System mit offizieller GitHub-Manifest-URL vorbereitet.
+- Update-Manifeste unterstützen enabled=false für sichere Release-Vorbereitung.
 
+Automatische / Repository-Prüfungen
+-----------------------------------
+- JSON-Syntax und Ressourcenstruktur.
+- 46 Materialregistrierungen.
+- Registrierte und sichtbare Blockfamilien.
+- Blockstates und Modellreferenzen.
+- DE/EN-Sprachschlüssel.
+- Loot-Self-Drops und Minecraft-26.3-Loot-Schema.
+- Spitzhacken-/Axt-Tags.
+- Architektur-Arbeitstisch-Rezept.
+- Formregistrierungen und Button-IDs.
+- Version 1.6.0-rc6 in gradle.properties.
+- Fabric-Metadaten verwenden All-Rights-Reserved.
+- LICENSE, LICENSE.txt und README sind auf All Rights Reserved vereinheitlicht.
+- GitHub Actions Build mit Java 25 erfolgreich.
+- Build-Artefakt wird von GitHub Actions erfolgreich erzeugt und hochgeladen.
+- CI kann zusätzlich manuell per workflow_dispatch als Preflight gestartet werden.
+- Release-Workflow validiert Tag gegen gradle.properties und erzeugt anschließend
+  JAR, SHA-256 und update.properties automatisch.
+- update.properties bleibt bis zum ersten veröffentlichten Release enabled=false.
 
-1.6.0-rc2 Zusatzprüfung (offline):
-- Rückumwandlungsregistry für alle 46 Materialien / 20 registrierten Architekturblockfamilien
-- eigener Architektur-Arbeitstisch-Textursatz und Modellreferenzen
-- eindeutige Button-ID für Rückumwandlung
+Noch vor 1.6.0 Final einmal kurz ingame prüfen
+----------------------------------------------
+- Minecraft 26.3 startet mit 1.6.0-rc6 ohne Fehler.
+- Bestehende Testwelt mit bereits gesetzten FaithfulBlocks-Blöcken laden.
+- Architektur-Arbeitstisch öffnen und Vorwärts-/Rückumwandlung testen.
+- Je eine repräsentative Stein- und Holzvariante platzieren.
+- Bogen, Schrägblock, schmale/große Säule, Sockel und Fensterrahmen kurz prüfen.
+- Fensterrahmen mit klarer und gefärbter Glasscheibe testen.
+- Welt speichern, neu laden und gesetzte Blöcke kontrollieren.
+- Optional Dedicated Server einmal mit derselben JAR starten.
+
+Wenn diese Smoke-Tests ohne neue Fehler durchlaufen, ist rc6 technisch bereit,
+als 1.6.0-Finalbasis verwendet zu werden.
